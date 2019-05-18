@@ -51,6 +51,11 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector.version}</version>
             </dependency>
+           <!-- <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-log4j-1.x</artifactId>
+                <version>{project.release.version}</version>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
     <dependencies>

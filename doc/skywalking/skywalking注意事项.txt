@@ -1,0 +1,9 @@
+启动mysql
+1. 路径
+apache-skywalking-apm-incubating\config\application.yml
+2. 取消mysql:注释
+   并注释掉h2和elasticsearch
+3. 修改datasource-settings.properties数据库配置
+    重启启动sky会自动生成需要的表
+查看服务之间内部调用详细信息
+将\agent\optional-plugins目录下的apm-spring-annotation-plugin-6.0.0-GA.jar移动到\agent\plugins，然后重启

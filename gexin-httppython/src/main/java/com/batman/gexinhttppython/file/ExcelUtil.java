@@ -9,6 +9,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,6 +26,7 @@ import java.util.regex.Pattern;
  * @Description: TODO
  * @date 2019/5/2214:05
  */
+@Component
 public class ExcelUtil {
     private Logger logger = LoggerFactory.getLogger(ExcelUtil.class);
 

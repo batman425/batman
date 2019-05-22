@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gexindemo" />
         <module name="gexingateway" />
+        <module name="gexinhttppython" />
+        <module name="gexinloges" />
         <module name="gexinnacos" />
       </profile>
     </annotationProcessing>

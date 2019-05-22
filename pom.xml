@@ -12,6 +12,8 @@
         <module>gexin-demo</module>
         <module>gexin-gateway</module>
         <module>gexin-nacos</module>
+        <module>gexin-loges</module>
+        <module>gexin-httppython</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gexindemo" />
+        <module name="gexineureka" />
         <module name="gexingateway" />
         <module name="gexinhttppython" />
         <module name="gexinloges" />
         <module name="gexinnacos" />
+        <module name="gexinoauth2" />
+        <module name="gexinzuul" />
       </profile>
     </annotationProcessing>
   </component>

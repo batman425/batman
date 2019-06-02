@@ -62,7 +62,12 @@
                 <configuration>
                     <imageName>${project.name}:${project.version}</imageName>
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
-                    <dockerHost>http://192.168.1.10:2375</dockerHost>
+                    <!--用此命令推送到docker服务器
+                        在服务器上面执行命令docker push 172.19.68.11:5000/batman/gexin-docker-demo:1.0-SNAPSHOT
+                        push到harbor私有仓库
+                    -->
+                    <dockerHost>http://47.103.52.93:2375</dockerHost>
+
                     <!-- 这里是复制 jar 包到 docker 容器指定目录配置 -->
                     <resources>
                         <resource>

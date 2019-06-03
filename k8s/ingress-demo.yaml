@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: my-ingress
+spec:
+  rules:      #设置转发规则：当HTTP请求的host为myk8s.com且path为/app时，转发到Service my-app的80端口；
+  - host: myk8s.com
+    http:
+      paths:
+      - path: /app
+        backend:
+          serviceName: myapp
+          servicePort: 80

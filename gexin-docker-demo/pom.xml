@@ -63,8 +63,8 @@
                     <imageName>${project.name}:${project.version}</imageName>
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <!--用此命令推送到docker服务器
-                        在服务器上面执行命令docker push 172.19.68.11:5000/batman/gexin-docker-demo:1.0-SNAPSHOT
-                                          docker tag gexin-docker-demo:1.0-SNAPSHOT 172.19.68.11:5000/batman/gexin-docker-demo:1.0-SNAPSHOT
+                        在服务器上面执行命令docker tag gexin-docker-demo:1.0-SNAPSHOT 172.19.68.11:5000/batman/gexin-docker-demo:1.0-SNAPSHOT
+                                          docker push 172.19.68.11:5000/batman/gexin-docker-demo:1.0-SNAPSHOT
                         push到harbor私有仓库
                     -->
                     <dockerHost>http://47.103.52.93:2375</dockerHost>
